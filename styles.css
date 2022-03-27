@@ -1,0 +1,50 @@
+main {
+  color: gold;
+}
+
+.exactly-that {
+  font-size: 22px;
+  color: blue;
+}
+
+.main-class {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.loror {
+  color: black;
+}
+
+img {
+  border: 2px dashed black;
+  margin: 10px;
+  padding: 50px;
+
+  display: block;
+  transition: background 0.5s;
+}
+
+img:nth-child(even) {
+  background: lightblue;
+}
+img:nth-child(odd) {
+  background: lightyellow;
+}
+img:nth-child(3) {
+  background: lightgreen;
+}
+
+img:hover {
+  background: gray;
+  transition: background 0.5s;
+}
+
+.flex-class {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.flex-gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
